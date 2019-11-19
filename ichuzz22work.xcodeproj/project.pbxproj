@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE28918C2383D1A1000A6BF0 /* ServiceProviderSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE28918B2383D1A1000A6BF0 /* ServiceProviderSignUpViewController.swift */; };
 		EEDB7F93237ECB25001A2192 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDB7F92237ECB25001A2192 /* AppDelegate.swift */; };
 		EEDB7F95237ECB25001A2192 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDB7F94237ECB25001A2192 /* SceneDelegate.swift */; };
 		EEDB7F97237ECB25001A2192 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDB7F96237ECB25001A2192 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EE28918B2383D1A1000A6BF0 /* ServiceProviderSignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceProviderSignUpViewController.swift; sourceTree = "<group>"; };
 		EEDB7F8F237ECB25001A2192 /* ichuzz22work.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ichuzz22work.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEDB7F92237ECB25001A2192 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EEDB7F94237ECB25001A2192 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +39,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EE918A7923840D6B0076BACE /* View Contollers */ = {
+			isa = PBXGroup;
+			children = (
+				EE28918B2383D1A1000A6BF0 /* ServiceProviderSignUpViewController.swift */,
+				EEDB7F96237ECB25001A2192 /* ViewController.swift */,
+			);
+			path = "View Contollers";
+			sourceTree = "<group>";
+		};
 		EEDB7F86237ECB25001A2192 = {
 			isa = PBXGroup;
 			children = (
@@ -58,7 +69,7 @@
 			children = (
 				EEDB7F92237ECB25001A2192 /* AppDelegate.swift */,
 				EEDB7F94237ECB25001A2192 /* SceneDelegate.swift */,
-				EEDB7F96237ECB25001A2192 /* ViewController.swift */,
+				EE918A7923840D6B0076BACE /* View Contollers */,
 				EEDB7F98237ECB25001A2192 /* Main.storyboard */,
 				EEDB7F9B237ECB39001A2192 /* Assets.xcassets */,
 				EEDB7F9D237ECB39001A2192 /* LaunchScreen.storyboard */,
@@ -139,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEDB7F97237ECB25001A2192 /* ViewController.swift in Sources */,
+				EE28918C2383D1A1000A6BF0 /* ServiceProviderSignUpViewController.swift in Sources */,
 				EEDB7F93237ECB25001A2192 /* AppDelegate.swift in Sources */,
 				EEDB7F95237ECB25001A2192 /* SceneDelegate.swift in Sources */,
 			);
